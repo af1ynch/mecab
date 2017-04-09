@@ -60,9 +60,9 @@
 
 #ifndef MECAB_DEFAULT_CHARSET
 #if defined(_WIN32) && !defined(__CYGWIN__)
-#define MECAB_DEFAULT_CHARSET "SHIFT-JIS"
+#define MECAB_DEFAULT_CHARSET "UTF-8"
 #else
-#define MECAB_DEFAULT_CHARSET "EUC-JP"
+#define MECAB_DEFAULT_CHARSET "UTF-8"
 #endif
 #endif
 
